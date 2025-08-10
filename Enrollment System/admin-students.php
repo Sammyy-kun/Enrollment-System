@@ -8,8 +8,18 @@
      <div id="sidebar">
         <h5 class="mb-3 ps-3 sublogo">MENU</h5>
         <ul>
-            <li><a href="admin-dashboard.php"><i class="material-icons f">dashboard</i>Dashboard</a></li>
-            <li><a href="students.php"><i class="material-icons f">backpack</i>Students</a></li>
+             <li>
+                <a href="admin-dashboard.php">
+                    <img src="img/dashboard.svg" alt="">
+                    <i class="material-icons f"></i>Dashboard
+                </a>
+            </li>
+            <li class="active">
+                <a href="admin-students.php">
+                    <img src="img/student.svg" alt="">
+                    <i class="material-icons f"></i>Students
+                </a>
+            </li>
         </ul>
         <div class="sidebar-bottom">
             <ul>
@@ -38,3 +48,4 @@
     ?>
 </body>
 </html>
+
