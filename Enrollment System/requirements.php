@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="style/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/new-student-navbar.css">
     <link rel="stylesheet" href="style/new-student.css">
-    <link rel="stylesheet" href="style/requirements.css">
 </head>
 <body>
      <!-- Sidebar -->
     <div id="sidebar">
         <h5 class="mb-3 ps-3 sublogo">MENU</h5>
         <ul>
-            <li><a href="index.php"><i class="material-icons f">home</i> Home</a></li>
-            <li><a href="requirements.php"><i class="material-icons f">description</i> Requirements</a></li>
-            <li><a href="new-student.php"><i class="material-icons f">assignment</i> Admin Form</a></li>
+             <li class="active">
+                <a href="requirements.php">
+                    <img src="img/description.svg" alt="">
+                    <i class="material-icons f"></i> Requirements
+                </a>
+            </li>
+            <li>
+                <a href="new-student.php">
+                    <img src="img/assignment.svg" alt="">
+                    <i class="material-icons f"></i> Admission Form
+                </a>
+            </li>
+            <li class="hover-sidebar">
+                <a href="index.php">
+                    <img src="img/home.svg" alt="">
+                    <i class="material-icons f"></i> Home
+                </a>
+            </li>
         </ul>
     </div>
     <div class="content-wrapper">
@@ -147,4 +161,5 @@
     </div>
     <script src="style/new-student.js"></script>  
 </body>
+
 </html>
